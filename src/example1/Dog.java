@@ -17,9 +17,15 @@ package example1;
  */
 public class Dog extends Animal {
 
+    private String spokenMessage;
+
+    public void setSpokenMessage(String spokenMessage) {
+        this.spokenMessage = spokenMessage;
+    }
+
     @Override
-    public void speak() {
-        System.out.println("bark");
+    public String getSpokenMessage() {
+        return spokenMessage;
     }
 
 }

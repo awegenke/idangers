@@ -22,7 +22,7 @@ package example1;
 public class Duck extends Animal {
 
     @Override
-    public void speak() {
-        System.out.println("quack");
+    public String getSpokenMessage() {
+        return "quack";
     }
 }
